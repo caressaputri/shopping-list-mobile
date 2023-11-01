@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+class ShopItem {
+  final String name;
+  final IconData icon;
+
+  ShopItem(this.name, this.icon);
+}
+
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key}) : super(key: key);
 
@@ -56,15 +63,6 @@ class MyHomePage extends StatelessWidget {
       ),
     );
   }
-}
-
-
-
-class ShopItem {
-  final String name;
-  final IconData icon;
-
-  ShopItem(this.name, this.icon);
 }
 
 class ShopCard extends StatelessWidget {
